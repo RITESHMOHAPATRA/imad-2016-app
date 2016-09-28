@@ -7,20 +7,20 @@ app.use(morgan('combined'));
 
 
 var articles={
-            articleone = {title:"article one",heading:"Article-one",date:'sept 28,2016',
+            articleone:{title:"article one",heading:"Article-one",date:'sept 28,2016',
             content:`
             <p>
                This is my first article.
             </p>
             `},
-            articletwo = {title:"article one",heading:"Article-two",date:'sept 28,2016',
+            articletwo:{title:"article one",heading:"Article-two",date:'sept 28,2016',
             content:`
             <p>
                This is my first article.
             </p>`
                 
             },
-            articlethree = {title:"article three",heading:"Article-three",date:'sept 28,2016',
+            articlethree:{title:"article three",heading:"Article-three",date:'sept 28,2016',
                 content:`
             <p>
                This is my first article.
@@ -29,7 +29,7 @@ var articles={
             }
 
 };
-fuction createtemplate(data)
+function createtemplate(data)
 {
     var title=data.title;
     var date=data.date;
