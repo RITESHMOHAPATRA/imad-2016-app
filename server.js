@@ -24,7 +24,7 @@ var articles = {
     			</p>`
     },
     'article-three' : {
-         title: 'Article Three | Asutosh RKM',
+         title: 'Article Three | RKM',
 		heading: 'Article Three',
 		date: 'Sep 29, 2016',
 		content: `<p>
