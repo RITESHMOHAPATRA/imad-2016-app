@@ -1,0 +1,117 @@
+#Navbar
+{
+    margin-top: -10px;
+    height: 50px;
+    width:100%;
+    text-align: center;
+    background-color: none; 
+    position: fixed;   
+}
+#Menu
+{
+    padding-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.Nav
+{
+    display: inline;
+    margin-left: 30px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+.container
+{
+    background-image: url("/ui/1.1.jpg");
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    margin-top: -300px;
+}
+body
+{
+    margin-left: -3px;
+    margin-right: -3px;
+    margin-top: -4px;
+}
+.Nav:hover
+{
+    text-decoration: overline;
+    background-color: black;
+}
+#Login
+{
+    background-image: url("/ui/1.2.jpg");
+    width: 860px;
+    height: 500px;
+    text-decoration:lightcyan;
+    background-size: cover;
+    padding-top: 250px;
+    padding-left: 500px; 
+    font-size: larger;
+    color: aliceblue;
+}
+.anchor
+{
+    color:lightcyan;
+}
+#loginbutton
+{
+  background-color: darkred; 
+  font-size: large;
+  text-decoration: overline;
+}
+#loginbutton:hover
+{
+    text-decoration: underline;
+    font-size: x-large;
+}
+#registerbutton
+{
+  background-color: darkred; 
+  font-size: large;
+  text-decoration: overline;
+}
+#registerbutton:hover
+{
+    text-decoration: underline;
+    font-size: x-large;
+}
+#Contact
+{
+    background-image: url("/ui/2nd.png");
+    width: 860px;
+    height: 430px;
+    text-decoration: blanchedalmond;
+    padding-top: 250px;
+    padding-left: 500px; 
+    background-size: cover;
+    font-size: larger;
+}
+#me
+{
+    margin-left:    750px;
+    margin-top:     300px;
+    padding-top:    200px;
+    margin-bottom: 50px;
+    height:         150px;
+    width:          500px;
+    color:          aliceblue;
+}
+#insp
+{
+    font-family:    'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-sizeL:     x-large;
+    color:          aliceblue;
+}
+#photo
+{
+    height:         360px;
+    width:          640px;
+    margin-left:    50px;
+    margin-top:     -200px;
+    border:         2px solid;
+    border-radius:  20px;
+    color:          aliceblue;
+    background-image: url("/ui/Home.jpg")
+}
